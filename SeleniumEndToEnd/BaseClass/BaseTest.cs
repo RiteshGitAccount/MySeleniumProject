@@ -14,7 +14,7 @@ namespace SeleniumEndToEnd.BaseClass
         [SetUp]
         public void Open()
         {
-            //Chrome driver will get called Bash File
+            //Chrome driver will get called Bash File Updated 7 July
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
             driver.Url = "https://www.facebook.com/";
